@@ -1,6 +1,5 @@
 package Introduccion;
-
-public class ejercicio_tema3 {
+public class Main {
     public static void main(String[] args) {
         System.out.println("Primera parte: ");
         System.out.println(ejercicio1(5, 10, 15)+"\n");
@@ -21,7 +20,4 @@ public class ejercicio_tema3 {
     public static int ejercicio1(int a, int b, int c){
         return a + b + c;
     }
-
 }
-
-
