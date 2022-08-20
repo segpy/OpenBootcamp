@@ -1,4 +1,4 @@
-package Introduccion.Ejercicio3;
+package Ejercicio3;
 public class Main {
     public static void main(String[] args) {
         System.out.println("Primera parte: ");

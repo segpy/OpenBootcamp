@@ -1,4 +1,4 @@
-package Introduccion.Ejercicio3;
+package Ejercicio3;
 
 public class Coche {
     public int puertas;
