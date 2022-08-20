@@ -1,7 +1,7 @@
 package Ejercicio3;
 
 public class Coche {
-    public int puertas;
+    private int puertas;
 
     public Coche(int puertas) {
         this.puertas = puertas;
