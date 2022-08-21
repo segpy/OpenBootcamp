@@ -8,7 +8,7 @@ public class Main {
         System.out.printf("Nombre : %s\n", cliente.getNombre());
         System.out.printf("Edad : %d\n", cliente.getEdad());
         System.out.printf("Telefono : %d\n", cliente.getTelefono());
-        System.out.printf("Credito : %d\n", ((Cliente)cliente).getCredito()); //(Cliente)cliente es un casting de cliente a Cliente
+        System.out.printf("Credito : %d\n", ((Cliente)cliente).getCredito()); //(Cliente)cliente: objeto de la clase padre Persona, se hace un casting a la clase hija Cliente
 
 
 
