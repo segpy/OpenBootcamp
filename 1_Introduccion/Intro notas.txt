@@ -1,0 +1,32 @@
+@@@	Tipos de lenguaje
+Lenguaje compilado: lenguaje de tipo nativo, que se ejecuta en el sistema operativo/procesador. C
+
+Lenguaje interpretado: no se ejecuta por el procesador sino por el intérprete, el cual lee el código y lo ejecuta el mismo. Python, Java
+
+@@@	Memoria y variables
+Constante: zona de memoria que no puede variar durante la ejecucion
+variable: zona de memoria que puede cambiar durante la ejecucion
+
+La memoria es finita
+
+@@@	Datos complejos
+Arrays, Tuplas, Objetos
+@@@	Datos primitivos
+Caracteres/Cadenas, Datos numéricos, booleano
+
+@@@	Paso por referencia
+En java son los objetos y hace referencia a una variable/objeto que se modifica a partir de su posicion de memoria original, sin crear copias
+
+@@@	Paso por valor
+Cuando se usan variables el paso por valor crea copias de las posiciones de memorias, por lo que tiende a duplicar
+
+@@@	Abstraccion
+Métodos que son creados dentro de una clase abstracta con contenido vacío el cual será creado por la clase final.
+
+@@@	Encapsulacion
+Dejar los atributos privados de las clases para acceder a ellos mediante funciones publicas set y get
+
+@@@ Interfaz
+Similar a una clase abstracta.
+
+Cumple la función de hacer un "esquema" con las funciones que se van a crear en las demás clases, por lo que el programador debe agregar el código a asignar en las clases respectivas.
