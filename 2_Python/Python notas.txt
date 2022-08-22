@@ -1,0 +1,8 @@
+@@@	Tipado dinamico
+Lenguaje de programación que detecta el tipo de variables con solo la asignación de las mismas. Es decir, no hay que especificar el tipo entero, string, etc..
+
+@@@	Tipado debil
+Se pueden operar variables de diferentes tipos
+
+@@@	Tipado fuerte
+Solo se pueden realizar operaciones con variables del mismo tipo
