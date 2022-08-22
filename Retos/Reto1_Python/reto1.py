@@ -4,6 +4,10 @@ archivo = input("Ingrese el nombre del archivo: ")
 path = archivo+".xlsx"
 # Read the file
 df = pd.read_excel(path)
+""" #leer la segunda columna
+df2 = df.iloc[:,1]
+print(df2) """
+
 while True:
     try:
         print('Ingrese el nombre de la columna que desea filtrar: ', end=' ')
