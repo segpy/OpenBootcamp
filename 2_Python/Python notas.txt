@@ -6,3 +6,11 @@ Se pueden operar variables de diferentes tipos
 
 @@@	Tipado fuerte
 Solo se pueden realizar operaciones con variables del mismo tipo
+
+@@@	Datos mutables
+La posición de memoria donde se guardan los datos puede ser cambiada, similar a paso por valor.
+Listas
+
+@@@	Datos inmutables
+Su valor se asigna en una única posición de memoria, si la variable se modifica se crea una nueva posición. Similar a objetos.
+Int, String, Tuplas
