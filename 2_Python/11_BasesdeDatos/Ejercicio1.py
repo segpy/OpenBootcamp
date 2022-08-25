@@ -8,11 +8,7 @@ def main():
         for i in range(n):
             print('Alumno', i+1)
             agregarAlumno(i+1)
-        cursor = conexion.cursor()
-        cursor.execute('SELECT * FROM alumnos')
-        res = cursor.fetchall()
-        for fila in res:
-            print(fila)
+        buscarAlumno(input('Ingrese el nombre del alumno a buscar: '))
         conexion.close()
 
 
@@ -29,6 +25,16 @@ def agregarAlumno(id):
     conexion.commit()
     conexion.close()
     print('Alumno agregado')
+
+def buscarAlumno(nombre):
+    conexion = conectar()
+    cursor = conexion.cursor()
+    cursor.execute(f'SELECT * FROM alumnos WHERE nombre = "{nombre}" and idAlumnos >= 1')
+    res = cursor.fetchall()
+    conexion.close()
+    for fila in res:
+        print(fila)
+    
 
 if __name__ == '__main__':
     main()
