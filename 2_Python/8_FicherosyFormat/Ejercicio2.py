@@ -19,6 +19,8 @@ fichero.close()
 
 print(f'Marca objeto 1: {ob.marca}')
 print(f'Modelo objeto 1: {ob.modelo}')
+print(f'Objeto 1: {ob}')
 print(f'Marca objeto 2: {ob2.marca}')
 print(f'Modelo objeto 2: {ob2.modelo}')
+print(f'Objeto 2: {ob2}')
 
