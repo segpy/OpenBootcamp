@@ -22,7 +22,7 @@ def agregarAlumno(id):
     nombre = input('Ingrese el nombre del alumno: ')
     apellido = input('Ingrese el apellido del alumno: ')
     cursor.execute(f'INSERT INTO alumnos (idAlumnos, nombre, apellido) VALUES ({id}, "{nombre}", "{apellido}")')
-    conexion.commit()
+    conexion.commit() # commit() guarda los cambios en la base de datos (actualizar,crear,eliminar)
     conexion.close()
     print('Alumno agregado')
 
@@ -30,7 +30,7 @@ def buscarAlumno(nombre):
     conexion = conectar()
     cursor = conexion.cursor()
     cursor.execute(f'SELECT * FROM alumnos WHERE nombre = "{nombre}" and idAlumnos >= 1')
-    res = cursor.fetchall()
+    res = cursor.fetchall() # fetchall() devuelve una lista de tuplas (leer)
     conexion.close()
     for fila in res:
         print(fila)
